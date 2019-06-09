@@ -17,6 +17,7 @@ docker run \
   -v ${PWD}/proj:/proj \
   alex031544/intelij
 ```
+To separate project files from Intelij setting, in this example the volumes *proj* and *data* are used.
 
 # Tags available
 
