@@ -23,5 +23,6 @@ To separate project files from Intelij setting, in this example the volumes *pro
 
 | Intelij    | Java         | Maven | underlaying OS   | Tags                                 |
 |:----------:|:-------------|:------|:-----------------|:-------------------------------------|
-| 2019.1.3   | openJDK 11   | 3.3.9 | Debian Stretch   | intelij-2019.1.3--openjdk-11; latest |
+| 2019.1.3   | openJDK 13   | 3.3.9 | Alpine Linux     | intelij-2019.1.3--openjdk-13; latest |
+| 2019.1.3   | openJDK 11   | 3.3.9 | Debian Stretch   | intelij-2019.1.3--openjdk-11;        |
 | 2019.1.3   | openJDK 8    | 3.3.9 | Debian Stretch   | intelij-2019.1.3--openjdk-8          |

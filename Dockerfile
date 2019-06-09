@@ -1,7 +1,6 @@
-FROM openjdk:11-jdk-stretch
+FROM openjdk:13-alpine
 
-RUN apt-get update -y
-RUN apt-get install -y x11-utils git-core wget maven
+RUN apk add xorg-server xf86-video-vesa xf86-input-evdev xf86-input-mouse xf86-input-keyboard udev git wget maven ttf-dejavu
 
 ENV intelijVersion=ideaIC-2019.1.3
 ENV intelijPath=idea-IC-191.7479.19
