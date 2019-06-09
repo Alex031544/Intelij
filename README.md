@@ -1,6 +1,6 @@
 # Intelij
 
-This images extends the official [openjdk](https://hub.docker.com/_/openjdk) by IntelliJ IDEA.
+This images extends the official [openjdk](https://hub.docker.com/_/openjdk) by IntelliJ IDEA and Apache Maven.
 
 # How to run:
 
@@ -21,7 +21,7 @@ To separate project files from Intelij setting, in this example the volumes *pro
 
 # Tags available
 
-| Intelij    | Java         | underlaying OS   | Tags    |
-|:----------:|:-------------|:-----------------|:--------|
-| 2019.1.3   | openJDK 11   | Debian Stretch   | intelij-2019.1.3--openjdk-11; latest |
-| 2019.1.3   | openJDK 8    | Debian Stretch   | intelij-2019.1.3--openjdk-8 |
+| Intelij    | Java         | Maven | underlaying OS   | Tags                                 |
+|:----------:|:-------------|:------|:-----------------|:-------------------------------------|
+| 2019.1.3   | openJDK 11   |       | Debian Stretch   | intelij-2019.1.3--openjdk-11; latest |
+| 2019.1.3   | openJDK 8    | 3.3.9 | Debian Stretch   | intelij-2019.1.3--openjdk-8          |
