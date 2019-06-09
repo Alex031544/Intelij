@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-stretch
+FROM openjdk:11-jdk-stretch
 
 RUN apt-get update -y
 RUN apt-get install -y x11-utils git-core wget maven
