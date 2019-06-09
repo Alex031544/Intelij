@@ -1,0 +1,15 @@
+#!/bin/bash
+
+xhost +
+
+docker run \
+	-it \
+	--rm \
+	-d \
+	--env=LOCAL_USER_ID="$(id -u)" \
+	-e DISPLAY=unix$DISPLAY \
+	-v /tmp/.X11-unix:/tmp/.X11-unix \
+	-v ${PWD}/data:/data \
+	-v ${PWD}/proj:/proj \
+	alex031544/intelij:intelij-2019.1.3--openjdk-8
+
