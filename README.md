@@ -1,6 +1,6 @@
-# Intelij
+# Intelij IDEA
 
-This images extends the official [openjdk](https://hub.docker.com/_/openjdk) by IntelliJ IDEA and Apache Maven.
+This images extends the official [openjdk](https://hub.docker.com/_/openjdk) by [Intelij IDEA](https://www.jetbrains.com/idea/) and [Apache Maven](https://maven.apache.org).
 
 # How to run:
 
@@ -17,7 +17,15 @@ docker run \
   -v ${PWD}/proj:/proj \
   alex031544/intelij
 ```
-To separate project files from Intelij setting, in this example the volumes *proj* and *data* are used.
+To separate project files from Intelij settings, in this example the volumes *proj* and *data* are used to made them persistant.
+
+A ready to go run script is available with [run_intelij](run_intelij). The folder structure to use them should look like:
+```
+.
+├── data
+├── proj
+└── run_intelij
+```
 
 # Tags available
 
